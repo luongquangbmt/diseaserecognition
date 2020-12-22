@@ -7,4 +7,5 @@ ssh -i ~/.ssh/id_rsa quang@130.211.228.122
 . CreateEnvironment.txt  
 If you install any new package, please add the name to the scripts   
 
+- Activate the DEV enviroment
 conda activate DEV  
