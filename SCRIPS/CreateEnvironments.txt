@@ -1,6 +1,6 @@
 # Commands for Environment configuration (Centos 7 - Linux)
 # ----------------------------------------------------------
-# Author: Mirko J. Rodríguez
+# Author: Quang Nguyen, adapted from: Mirko J. Rodríguez
 # ----------------------------------------------------------
 
 ###################### CentOS Configuration ##########################
@@ -49,13 +49,13 @@ conda deactivate
 
 ######################### Create PROD Environment ####################
 #Create an environment called "PROD" and install Python
-conda create -n PROD pip python=3.7.0
+conda create -n PROD pip python=3.9.1
 
 #Activate PROD Environment
 conda activate PROD
 
 #Install python
-pip install python=3.7.5
+pip install python=3.9.1
 
 #Install TensorFlow in PROD:
 pip install --no-cache-dir tensorflow==2.3.0
