@@ -1,7 +1,7 @@
 # Disease Recognition
 
 - Login to the VM  
-ssh -i ~/.ssh/id_rsa quang@130.211.228.122  
+ssh -i ~/.ssh/id_rsa quang@130.211.228.122  (user name is different, IP address is different)
 
 - Create two python environments DEV and PROD by the script in scripts/CreateEnvironment.txt  
 . CreateEnvironment.txt  
